@@ -1,0 +1,496 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Roboto,sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo .logo-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo .logo-container a{
+    margin-top: 9px;
+}
+.services{
+    display: flex;
+    height: 200vh;
+    background-image: url(./Images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.services services-container{
+    margin-left: 190px;
+    margin-top: 372px;
+}
+.services .services-text{
+    color: white;
+    text-align: left;
+    font-size: 4.25rem;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.services .services-text h4{
+    font-size: 4.5rem;
+    line-height: 1;
+}
+.services .services-text h1{
+    font-family: "Archivo Black";
+    font-weight: 700;
+}
+.services .services-text hr{
+    border: 6px solid white;
+    background-color: white;
+    margin: 30px auto 0 0;
+}
+.services-logo img{
+    width: 80px;
+    height: 80px;
+}
+.services-items{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    padding: 80px;
+    margin-top: 48px;
+}
+.services-items .services-logo h5{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px 0 0;
+    color: white;
+}
+.help{
+    background-color: #f2f2f2;
+    height: 75vh;
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+    color: black;
+}
+.help .help-text h4{    
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.help .help-text h1{
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: capitalize;  
+    padding-bottom: 20px;  
+}
+.help .help-text p{
+    font-size: 1.4rem;
+    font-weight: normal;
+    padding-bottom: 25px;
+}
+.help .help-text input[type='button'] {
+    background-color: #e71a23;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    border: 10px solid #e71a23;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.planning{
+    padding: 100px;
+}
+.planning .planning-image{
+    width: 48%;
+}
+.planning .planning-image img{
+    width: 100%;
+}
+.planning-image h2{
+    margin-bottom: 30px;
+}
+.planning-image p{
+    margin-top: 30px;
+}
+.planning-image .call-red{
+    color: #e71a23;
+    font-size: 1.875rem;
+}
+.best-quality{
+    background-image: url(./Images/g.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.best-quality .best-quality-image{
+    width: 50%;
+    height: 500px;
+    background-image: url(./Images/billionphotos1079319min.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.best-quality .best-quality-text{
+    width: 50%;
+    margin-top: 100px;
+}
+.best-quality .best-quality-text h4{
+    font-size: 3.75rem;
+    font-family: Roboto, sans-serif;
+    color: #104e92;
+    text-transform: uppercase;
+}
+.best-quality .best-quality-text hr{
+    height: 9px;
+    background-color:#e71a23;
+    border: none;
+    width: 60%;
+    margin: 30px 0;
+}
+.best-quality .best-quality-text p{
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+.best-quality .best-quality-text button{
+    padding: 16px 36px;
+    font-size: 0.75rem;
+    background-color: #e71a23;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    margin-top: 30px;
+}
+.our-services{
+    padding: 100px 0;
+}
+.our-services .our-services-container{
+    width: 50%;
+    margin: 0 auto;
+}
+.our-services .our-services-svg{
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    background-color: #e71a23;
+    padding: 18px;
+}
+.our-services .our-services-text h3{
+    padding-bottom: 50px;
+    font-size: 3.125rem;
+    text-transform: capitalize;
+}
+.our-services .our-services-content h4{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+.our-services .our-services-content p{
+    font-size: 1.1253rem;
+    font-weight: normal;
+    font-style: italic;
+}
+.our-services .our-services-items .our-services-content{
+    width: 30%;
+}
+.about-us{
+    color: #ffffff;
+    background-color: #104e92;
+    padding: 100px 0;
+}
+.about-us .about-us-text{
+    padding: 40px;
+    margin-left: 50px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.about-us .about-us-text,
+.about-us .about-us-images{
+    width: 45%;
+}
+.about-us .about-us-images img{
+    width: 100%;
+    height: 100%;
+}
+.about-us .about-us-images{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-us .about-us-images .about-image{
+    width: 48%;
+    margin-bottom: 20px;
+}
+.about-us .about-us-text h5{
+    font-size: 1.125rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.about-us .about-us-text h2{
+    font-size: 6rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.text{
+    text-align: center;
+    padding: 100px;
+}
+.text .text-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.text .to-do h2{
+    font-size: 2.5rem;
+    margin-top: 80px;
+}
+.text .to-do p{
+    font-size: 2.1rem;
+    line-height: 1.4;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.text .book-now{
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 4px;
+}
+.text .book-now a{
+    border: 1px solid #e71a23;
+    background-color: #e71a23;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-style: solid;
+    border-radius: 3px;
+    margin: 20px auto 0 0;
+    padding: 16px 36px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+.text .book-now .call-us{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+@media screen {
+    .services{
+        height: 110vh;
+        background-position: 50%;
+    }
+    .services .services-container{
+        margin-top: 330px;
+        margin-left: 207px;
+    }
+}
+
+@media (max-width:780px){
+    .services{
+        height: 110vh;
+    }
+    .services .services-container{
+        margin-left: 50px;
+        margin-top: 120px;
+    }
+    .services .services-items{
+        margin-top: 42px;
+        padding: 0;
+        gap: 10%;
+    }
+    .services .services-text{
+        font-size: 2.1rem;
+        letter-spacing: 6.2px;
+    }
+    .services .services-text h4 {
+    font-size: 2rem;
+    line-height: 1;
+    }
+    .help{
+        padding-bottom: 338px;
+    }
+    .planning{
+        padding: 0;
+    }
+    .planning-flex{
+        flex-direction: column;
+    }
+    .planning-flex .planning-image{
+        width: 100%;
+        padding: 30px;
+    }
+    .planning-image p {
+        font-size: 1.5rem;
+        margin-top: 50px;
+    }
+    .planning-image h2{
+        font-size: 2.5rem;
+    }
+    .planning-image .call-red{
+        font-size: 2.5rem;
+    }
+    .best-quality .best-quality-text {
+        width: 70%;
+        margin-top: 100px;
+    }
+    .best-quality .best-quality-text hr{
+        width: 85%;
+    }
+    .best-quality .best-quality-text p {
+        font-size: 1.2rem;
+    }
+    .our-services {
+        padding: 50px 0;
+    }
+    .our-services .our-services-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .about-us{
+        padding: 0;
+    }
+    .about-us-flex{
+        flex-direction: column;
+    }
+    .about-us .about-us-text,
+    .about-us .about-us-images{
+        width: 100%;
+    }
+    .about-us .about-us-text h2{
+        font-size: 4rem;
+    }
+    .text {
+        text-align: center;
+        padding: 38px;
+    }
+    .text .to-do h2 {
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+    .text .book-now {
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-left: 8px;
+    }
+}
+
+@media (max-width:480px){
+    .services{
+        background-position: 99.50% 50%;
+    }
+    .services .services-container{
+        margin-left: 60px;
+        margin-top: 338px;
+    }
+    .services .services-items{
+        display: none;
+    }
+    .services .services-text hr {
+        border: 4px solid white;
+        margin: 10px auto 0 0;
+    }
+    .help {
+        padding-top: 60px;
+        padding-bottom: 500px;
+    }
+    .help .help-text:nth-child(2){
+        width: 382px;
+        margin-right: 0px;
+        margin-left: 26px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .help .help-text:nth-child(3){
+        font-size: 1.25rem;
+        font-weight: 300;
+        width: 340px;
+        margin: 30px auto 0;
+    }
+    .help .help-text:nth-child(4){
+        margin-top: 20px;  
+        height: 100px; 
+    }
+    .planning{
+        padding: 10px 0;
+    }
+    .planning-image p {
+        font-size: 1.3rem;
+        margin-top: 20px;
+    }
+    .planning-image h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .planning-image .call-red {
+    font-size: 1.5rem;
+    }
+    .planning .planning-image:nth-last-child(1){
+        padding-top: 0px;
+    }
+    .best-quality-flex{
+        flex-direction: column;
+    }
+    .best-quality .best-quality-image,
+    .best-quality-text{
+        width: 100%;
+    }
+    .best-quality .best-quality-text {
+        width: 90%;
+        height: 430px;
+    }
+    .best-quality .best-quality-text p {
+        font-size: 1.4rem;
+    }
+    .best-quality .best-quality-text button {
+        margin-top: 15px;
+    }
+    .our-services-flex{
+        flex-direction: column;
+    }
+   .our-services .our-services-items .our-services-content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about-us .about-us-text {
+        margin-left: 0;
+    }
+    .about-us-flex{
+        flex-direction: column;
+    }
+    .about-us .about-us-images .about-image {
+         width: 100%; 
+    }
+    .text .book-now{
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+    }
+    .text .book-now a{
+        margin-left: 4px;
+    }
+    .text .book-now .call-us {
+         margin-left: 13px;
+    }
+
+}
