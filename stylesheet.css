@@ -385,11 +385,11 @@ h1, h2, h3, h4, h5, h6{
 
 @media (max-width:480px){
     .services{
-        background-position: 99.50% 50%;
+         background-position: 83.5% 50%;
     }
     .services .services-container{
-        margin-left: 60px;
-        margin-top: 300px;
+        margin-left: 36px;
+        margin-top: 330px;
     }
     .services .services-items{
         display: none;
@@ -483,4 +483,87 @@ h1, h2, h3, h4, h5, h6{
          margin-left: 13px;
     }
 
+}
+
+@media(max-width:376px){
+    .services{
+        background-position: 79.5% 50%
+    }
+    .services .services-container {
+        margin-left: 60px;
+        margin-top: 330px;
+    }
+    .services .services-text {
+        font-size: 2rem;
+        letter-spacing: 0.2px;
+    }
+    .help .help-text:nth-child(2){
+        width: 286px;
+    }
+    .planning-image .call-red {
+        font-size: 1.2rem;
+    }
+    .best-quality{
+        height: 1100px;
+    }
+    .best-quality .best-quality-text hr {
+        width: 100%;
+    }
+    .about-us .about-us-text{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .text .book-now{
+        margin-left: 60px;
+    }
+}
+
+@media(max-width:321px){
+    .services{
+        background-position: 72.5% 50%;
+    }
+    .services .services-container {
+        margin-top: 325px;
+        margin-left: 16px;
+    }
+    .services .services-text {
+        font-size: 1.9rem;
+        letter-spacing: 4.2px;
+    }
+    .help .help-text:nth-child(2) {
+        width: 293px;
+        margin-left: 13px;
+    }
+    .help .help-text:nth-child(2)h1{
+        width: 370px;
+    }
+    .help .help-text:nth-child(3) {
+        font-size: 1.24rem;
+        font-weight: 300;
+        width: 271px;
+        margin: 15px auto 0;
+    }
+    .planning-image .call-red {
+       font-size: 1.2rem;
+    }
+    .planning-image h2 {
+        font-size: 1.2rem;
+    }
+    .planning-image p {
+        font-size: 1.1rem;
+        margin-top: 15px;
+    }
+    .best-quality{
+        height: 1100px;
+    }
+    .best-quality .best-quality-text hr {
+        width: 100%;
+    }
+    .about-us .about-us-text{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .text .book-now{
+        margin-left: 30px;
+    }
 }
