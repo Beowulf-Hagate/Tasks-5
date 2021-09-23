@@ -30,15 +30,14 @@ h1, h2, h3, h4, h5, h6{
 }
 .services{
     display: flex;
-    height: 200vh;
+    height: 130vh;
     background-image: url(./Images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50%;
 }
-.services services-container{
-    margin-left: 190px;
-    margin-top: 372px;
+.services .services-container{
+    margin-top: 330px;
+    margin-left: 207px;
 }
 .services .services-text{
     color: white;
@@ -83,7 +82,6 @@ h1, h2, h3, h4, h5, h6{
 }
 .help{
     background-color: #f2f2f2;
-    height: 75vh;
     width: 100%;
     padding-top: 100px;
     text-align: center;
@@ -292,16 +290,6 @@ h1, h2, h3, h4, h5, h6{
     border: 1px solid black;
     color: black;
 }
-@media screen {
-    .services{
-        height: 130vh;
-        background-position: 50%;
-    }
-    .services .services-container{
-        margin-top: 330px;
-        margin-left: 207px;
-    }
-}
 
 @media (max-width:780px){
     .services{
@@ -325,7 +313,7 @@ h1, h2, h3, h4, h5, h6{
     line-height: 1;
     }
     .help{
-        padding-bottom: 338px;
+        padding-bottom: 80px;
     }
     .planning{
         padding: 0;
@@ -410,7 +398,7 @@ h1, h2, h3, h4, h5, h6{
     }
     .help {
         padding-top: 60px;
-        padding-bottom: 500px;
+        padding-bottom: 30px;
     }
     .help .help-text:nth-child(2){
         width: 382px;
