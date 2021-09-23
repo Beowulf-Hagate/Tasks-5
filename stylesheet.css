@@ -294,7 +294,7 @@ h1, h2, h3, h4, h5, h6{
 }
 @media screen {
     .services{
-        height: 110vh;
+        height: 130vh;
         background-position: 50%;
     }
     .services .services-container{
@@ -399,7 +399,7 @@ h1, h2, h3, h4, h5, h6{
     }
     .services .services-container{
         margin-left: 60px;
-        margin-top: 338px;
+        margin-top: 300px;
     }
     .services .services-items{
         display: none;
